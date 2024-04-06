@@ -1,0 +1,49 @@
+/*      COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+/*      GLOBAL STYLES
+----------------------------------------------------------------*/
+/*
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+/* Intro Content */
+.Text-Content-Intro{
+    margin-top: 15%;
+    
+}
+
+/* Bookkeeping Content */
+.Text-Content-Bookkeeping h2{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.Text-Content-Bookkeeping ul{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+/* Taxes Content */
+
+.Content-Taxes img{
+
+    size: 30px;
+
+}
