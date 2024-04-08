@@ -31,3 +31,20 @@ Off-white     #f6f6f6
     flex-direction:column;
     align-items:center; 
 }
+
+.img{
+
+}
+
+/* Test */
+@media only screen and (device-width: 390px) and (device-height: 844px) 
+   {
+    .content-box-iphone{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    /* .content-box{
+        display: flex;
+        flex-direction:column-reverse;
+    } */
+}
