@@ -9,16 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dosis&family=Josefin+Sans:ital@0;1&family=Lilita+One&family=Luxurious+Roman&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <style>
-        li{
+        .navigation ul li{
             padding: 10px;
             display: inline-block;
         }
-        li a{
+        .navigation ul li a{
             text-decoration: none;
             color: black;
             font-size: 17px;
         }
-        ul{
+        .navigation ul{
             position: absolute;
             top: 2%;
             right: 10%;
@@ -41,22 +41,44 @@
             background-color: #2c2e71;
             color: white;
         }
+
+        footer{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
     </style>
 </head>
 <body>
 
     <div>
         <img src="/images/كفر.jpg" height="80%" width="100%" style="opacity: 0.7" alt="">
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Contact Us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
         <h1 class="text_position" style="top: 40%;right: 47%;">Your Financial Partner for a Secure Future</h1>
         <h2 class="text_position" style="top: 57%;right: 54%;">Get started with a free consultation!</h2>
         <button type="button" class="btn btn-custom" style="position:absolute;top: 65%;right: 64%;">Book a Free consultation</button>
     </div>
+
+    <footer>
+        <div>
+            <div style="margin-top: 10%;">
+                <a href="https://www.instagram.com/aqd.consulting/"><img src="icons/icon-logo-instagram.png" height="50%" alt=""></a>
+                <a href="https://www.linkedin.com/company/102825512/admin/feed/posts/"><img src="icons/icon-logo-linkedin.png" height="50%" alt=""></a>
+            </div>
+        </div>
+        <div style="margin-top: 1%;">
+            <p style="text-align: center;">Copyright &copy; 2024 AQD Consulting Services - All Rights Reserved.</p>
+        </div>
+    </footer>
+
 
 </body>
 </html>
