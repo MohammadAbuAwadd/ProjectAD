@@ -16,7 +16,7 @@ Off-white     #f6f6f6
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* set root default to 10px */
+    /* font-size: 62.5%; set root default to 10px */
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -26,32 +26,24 @@ html, body{
     height: 100%;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Josefin Sans', sans-serif;
-
-}
 
 body {
-    background: #f6f6f6;
-    margin: 0;
+    /* margin: 0;
     font-size: 1.5rem;
-    line-height: 1.4;
-    font-family: 'Luxurious Roman', serif;
+    line-height: 1.4; */
+    /* font-family: 'Luxurious Roman', serif; */
 }
 
 h1, h2, h3{
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     font-weight: 400;
-    text-shadow: 0 0 3px #18004f;
+    text-shadow: 0 0 3px #18004f; */
 }
 
 h1{
-    font-size: 7rem;
-    line-height: 0.85;
+    /* font-size: 7rem;
+    line-height: 0.85; */
 }
 
 
@@ -153,7 +145,19 @@ footer {
     footer div p{
         font-size: 7px;
     }
+    .content-box-iphone{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .content-box img{
+        margin-top: 12%;
+        margin-bottom: 6%;
+
+    }
 }
+
+
 
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -483,7 +487,7 @@ footer {
 }
 
 
-
+/* Content */
 .content-box-text{
     display: flex;
     flex-direction: column;
@@ -494,6 +498,8 @@ footer {
 
 .content-box-text h2{
     text-align: center;
+    font-weight: 0;
+    text-shadow: 0;
 }
 
 
