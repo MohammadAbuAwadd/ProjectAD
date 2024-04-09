@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <div>
+    <div class="header-div">
         <img src="/images/كفر.jpg" alt="" class="mainpage-cover">
         <nav class="navigation">
             <ul>
@@ -22,7 +22,7 @@
         </nav>
         <h1 id="headerH1" class="text_position">Your Financial Partner for a Secure Future</h1>
         <h2 id="headerH2" class="text_position">Get started with a free consultation!</h2>
-        <button id="headerbtn" type="button" class="btn btn-custom">Book a Free consultation</button>
+        <button onclick="redirectToPage()" id="headerbtn" type="button" class="btn btn-custom">Book a Free consultation</button>
     </div>
 
     <!-- Content -->
@@ -226,16 +226,20 @@
 
     <footer>
         <div class="footer-icons">
-            <a class="footer-link" href="https://www.instagram.com/aqd.consulting/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
-            <a class="footer-link" href="https://www.linkedin.com/company/102825512/admin/feed/posts/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
-            <a class="footer-link" href="https://www.tiktok.com/@aqdconsultingservicesr"><i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i></a>
+            <a target="_blank" class="footer-link" href="https://www.instagram.com/aqd.consulting/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+            <a target="_blank" class="footer-link" href="https://www.linkedin.com/company/102825512/admin/feed/posts/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+            <a target="_blank" class="footer-link" href="https://www.tiktok.com/@aqdconsultingservicesr"><i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i></a>
         </div>
         <div>
             <p style="text-align: center;">Copyright &copy; 2024 AQD Consulting Services - All Rights Reserved.</p>
         </div>
     </footer>
 
-
+    <script>
+        function redirectToPage() {
+            window.location.href= "https://forms.office.com/r/MvrnyiG68p"
+        }
+    </script>
 
 </body>
 </html>
