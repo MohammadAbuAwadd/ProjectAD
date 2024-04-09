@@ -20,6 +20,11 @@ Off-white     #f6f6f6
 
 }
 
+/* Content Box */
+.content-box{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .content-box-text{
     display: flex;
     flex-direction: column;
